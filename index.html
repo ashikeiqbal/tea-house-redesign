@@ -171,62 +171,98 @@
 
 
     <!-- News Section -->
-    <section class="container mx-auto">
-            <div class="news-title">
+    <section class="container mx-auto my-32.5 space-y-12.5">
+            <div class="news-title text-center space-y-5 max-w-[900px] mx-auto">
                 <h2 class="text-[2.8125rem] font-extrabold dark-1">News & Events</h2>
                 <p class="text-base font-medium dark-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
-            <div class="news-cards">
+            <div class="news-cards grid lg:grid-cols-3 grid-cols-1 gap-6  justify-items-center lg:px-0 px-2.5 mx-auto ">
                 <!-- News Card 1 -->
-                 <div>
-                    <img src="./images/news-1.png" alt="">
-                    <p>Feb 05, 2027</p>
-                    <h5>Collecting 8 points for discount</h5>
-                    <p >There are many variations of passages of Lorem Ipsum available.</p>
-                    <h6>Learn More</h6>
-                 </div>
+                <div class="border-1 border-gray-200 rounded-xl p-5 max-w-100 space-y-2.5 ">
+                    <img class="w-full" src="./images/news-1.png" alt="">
+                    <p class="text-base font-medium dark-3">Feb 05, 2027</p>
+                    <h5 class="text-[1.25rem] font-extrabold dark-1">Collecting 8 points for discount</h5>
+                    <p class="text-base font-medium dark-3">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h6 class="text-base font-bold dark-1">Learn More</h6>
+                </div>
+                <!-- News Card 1 -->
+                <div class="border-1 border-gray-200 rounded-xl p-5 max-w-100 space-y-2.5">
+                    <img class="w-full" src="./images/news-2.png" alt="">
+                    <p class="text-base font-medium dark-3">Feb 05, 2027</p>
+                    <h5 class="text-[1.25rem] font-extrabold dark-1">Collecting 8 points for discount</h5>
+                    <p class="text-base font-medium dark-3">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h6 class="text-base font-bold dark-1">Learn More</h6>
+                </div>
+                <!-- News Card 1 -->
+                <div class="border-1 border-gray-200 rounded-xl p-5 max-w-100 space-y-2.5">
+                    <img class="w-full" src="./images/news-3.png" alt="">
+                    <p class="text-base font-medium dark-3">Feb 05, 2027</p>
+                    <h5 class="text-[1.25rem] font-extrabold dark-1">Collecting 8 points for discount</h5>
+                    <p class="text-base font-medium dark-3">There are many variations of passages of Lorem Ipsum available.</p>
+                    <h6 class="text-base font-bold dark-1">Learn More</h6>
+                </div>
+                
             </div>
     </section>
 
     <!-- Footer Section -->
-     <footer>
-        <div class="footer-container container mx-auto">
-            <div class="footer-top">
-                <img src="./images/cup.png" alt="">
-                <div>
-                    <p>Ready to get strated?</p>
-                    <button>Get Started</button>
+     <footer class="bg-linear-to-r from-[#FF8938]/10 to-[#FF0000]/10 py-32.5 space-y-26">
+        <div class="footer-container container mx-auto space-y-26">
+            <div class="footer-top flex justify-between lg:flex-row flex-col space-y-10">
+                <img class="max-w-[100px] lg:mx-0 mx-auto" src="./images/cup.png" alt="">
+                <div class="flex flex-col md:flex-row items-center gap-10 mx-auto">
+                    <p class="text-[1.25rem] font-semibold dark-2 flex items-center leading-tight">Ready to get strated?</p>
+                    <button class="bg-linear-to-r from-[#FF8938] to-[#FF0000] px-6 py-4 rounded-xl text-white text-[1.25rem] font-bold">
+                        Get Started
+                    </button>
                 </div>
             </div>
-            <div class="footer-center">
+            <div class="footer-center grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 md:text-left  text-center space-y-10">
                 <div>
                     <!-- Quick Links -->
-                    <ul>
-                        <li>Quick Links</li>
-                        <li>Home</li>
-                        <li>About Us</li>
-                        <li>Insurance</li>
-                        <li>Privacy Policy</li>
+                    <ul class="text-base font-normal dark-2 space-y-4.5">
+                        <li class="text-[1.25rem] font-semibold dark-1 ">Quick Links</li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Insurance</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        
                     </ul>
                 </div>
                 <!-- Our Service -->
-                <div></div>
-                <!-- Help -->
-                <div></div>
                 <div>
+                    <ul class="text-base font-normal dark-2 space-y-4.5">
+                        <li class="text-[1.25rem] font-semibold dark-1 ">Our Service</li>
+                        <li><a href="">Life Insurance</a></li>
+                        <li><a href="">Car Insurance</a></li>
+                        <li><a href="">Health Insurance</a></li>
+                        <li><a href="">House Insurance</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- Help -->
+                <div>
+                    <ul class="text-base font-normal dark-2 space-y-4.5">
+                        <li class="text-[1.25rem] font-semibold dark-1">Help</li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="space-y-10">
                     <div>
-                        <h5>Subscribe to our newsletter</h5>
+                        <h5 class="text-[1.25rem] font-semibold dark-1 ">Subscribe to our newsletter</h5>
                     </div>
                     <!-- Email newsletter -->
-                    <div>
-                        <input type="text" name="" id="">
-                        <button>
-
+                    <div class="flex gap-3">
+                        <input class="border-b-2 border-gray-500 min-w-[250px]" placeholder="Email Address" type="text" name="" id="">
+                        <button class="bg-linear-to-r from-[#FF8938] to-[#FF0000] flex justify-center items-center h-9 w-9 rounded-full flex gap-3 text-white text-[1.25rem] font-bold">
+                            <span><i class="fa-solid fa-angle-right"></i></span>
                         </button>
                     </div>
                     <!-- Social icon -->
                     <div>
-                        <ul>
+                        <ul class="flex gap-6 dark-2">
                             <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
@@ -234,8 +270,8 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <small>© 2027 UIDesign.to - All rights reserved.</small>
+            <div class="footer-bottom text-center">
+                <small class="text-base font-medium dark-2 ">© 2027 UIDesign.to - All rights reserved.</small>
             </div>
         </div>
      </footer>
